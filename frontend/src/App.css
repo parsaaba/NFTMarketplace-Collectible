@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    height: 8vh;
+    margin-left: 1em;
+    margin-right: 1em;
+    pointer-events: none;
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(darkslateblue, black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header-title {
+  color: white;
+}
+
+.Address {
+  color: gold;
+  margin-left: 10px;
+}
+
+.Input-table {
+  margin: 2em;
+  margin-left: 5em;
+  align-items: center;
+  color: lightgoldenrodyellow;
+}
+
+.Input-table-cell {
+  padding: 0.7em;
+}
+
+.Input {
+  border-radius: 0.5em;
+  margin-left: 5em;
+  height: 2.5em;
+  min-width: 24em;
+  font: 0.6em monospace;
+}
+
+.Input:focus {
+  background-color: gold;
+  font: white 0.8em monospace;
+}
+
+.Error-message {
+  color: red;
+  font: bold 0.6em monospace;
+}
+
+.Button {
+  color: white;
+  background-color: slateblue;
+  border-radius: 0.5em;
+  height: 3em;
+  min-width: 10em;
+  font: 30px monospace;
+}
+
+.Button:hover {
+  background-color: gold;
+  color: darkslateblue;
+  font: bold 30px monospace;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
